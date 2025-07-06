@@ -26,7 +26,7 @@ const About = () => {
 
   const team = [
     {
-      name: 'Sarah Johnson',
+      name: 'Mouleeswaran Swaminathan',
       role: 'CEO & Founder',
       image: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face'
     },
@@ -73,12 +73,12 @@ const About = () => {
                 Our Story
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2019, Intellimind began with a simple mission: to help businesses 
+                Founded in 2025, Intellimind began with a simple mission: to help businesses 
                 leverage technology to achieve their goals. What started as a small team of 
                 passionate developers has grown into a full-service software development company.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Today, we work with clients ranging from startups to Fortune 500 companies, 
+                Today, we work with clients ranging from startups to mid cap companies, 
                 delivering innovative solutions that drive real business value. Our commitment 
                 to quality, innovation, and client success remains at the core of everything we do.
               </p>
@@ -91,19 +91,19 @@ const About = () => {
             <div className="bg-gray-100 rounded-lg p-8">
               <div className="grid grid-cols-2 gap-4">
                 <div className="text-center p-4 bg-white rounded-lg">
-                  <div className="text-3xl font-bold text-primary-600 mb-2">100+</div>
+                  <div className="text-3xl font-bold text-primary-600 mb-2">10+</div>
                   <div className="text-gray-600">Projects Delivered</div>
                 </div>
                 <div className="text-center p-4 bg-white rounded-lg">
-                  <div className="text-3xl font-bold text-primary-600 mb-2">50+</div>
+                  <div className="text-3xl font-bold text-primary-600 mb-2">5+</div>
                   <div className="text-gray-600">Happy Clients</div>
                 </div>
                 <div className="text-center p-4 bg-white rounded-lg">
-                  <div className="text-3xl font-bold text-primary-600 mb-2">5+</div>
+                  <div className="text-3xl font-bold text-primary-600 mb-2">1+</div>
                   <div className="text-gray-600">Years Experience</div>
                 </div>
                 <div className="text-center p-4 bg-white rounded-lg">
-                  <div className="text-3xl font-bold text-primary-600 mb-2">15+</div>
+                  <div className="text-3xl font-bold text-primary-600 mb-2">5+</div>
                   <div className="text-gray-600">Team Members</div>
                 </div>
               </div>
@@ -145,7 +145,7 @@ const About = () => {
       </section>
 
       {/* Team Section */}
-      <section className="py-20">
+      {/* <section className="py-20">
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -176,7 +176,7 @@ const About = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }

@@ -40,25 +40,25 @@ const Contact = () => {
     {
       icon: <Mail size={20} />,
       title: 'Email',
-      value: 'hello@intellimind.com',
-      link: 'mailto:hello@intellimind.com'
+      value: 'intellimindtechnology@gmail.com',
+      link: 'mailto:intellimindtechnology@gmail.com'
     },
     {
       icon: <Phone size={20} />,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      value: '+1 (312) 513-8483',
+      link: 'tel:+13125138483'
     },
     {
       icon: <MapPin size={20} />,
       title: 'Address',
-      value: '123 Tech Street, San Francisco, CA 94105',
+      value: '168 Hana Rd, Edison, NJ 08817',
       link: 'https://maps.google.com'
     },
     {
       icon: <Clock size={20} />,
       title: 'Business Hours',
-      value: 'Mon - Fri: 9:00 AM - 6:00 PM PST',
+      value: 'Mon - Fri: 9:00 AM - 6:00 PM EST',
       link: null
     }
   ]
@@ -247,14 +247,23 @@ const Contact = () => {
                 <div className="bg-gray-100 rounded-lg p-6">
                   <div className="aspect-w-16 aspect-h-9 mb-4">
                     <div className="w-full h-48 bg-gray-200 rounded-lg flex items-center justify-center">
-                      <span className="text-gray-500">Map placeholder</span>
+                       <iframe
+              title="Intellimind Technology Location"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6064.821964075541!2d-74.41103642409928!3d40.532508448584785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3c7fc2c825cd7%3A0x677904b2cf378019!2s168%20Hana%20Rd%2C%20Edison%2C%20NJ%2008817!5e0!3m2!1sen!2sus!4v1749615887469!5m2!1sen!2sus"
+              width="100%"
+              height="180"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe> 
                     </div>
                   </div>
-                  <p className="text-gray-600">
-                    Located in the heart of San Francisco's tech district, 
+                  {/* <p className="text-gray-600">
+                    Located in the heart of Edison Township, 
                     our office is easily accessible and provides a great 
                     environment for collaboration and innovation.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
