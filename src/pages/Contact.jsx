@@ -46,8 +46,8 @@ const Contact = () => {
     {
       icon: <Phone size={20} />,
       title: 'Phone',
-      value: '+1 (312) 513-8483',
-      link: 'tel:+13125138483'
+      value: '+1 (312) 273-7214',
+      link: 'tel:+13122737214'
     },
     {
       icon: <MapPin size={20} />,
